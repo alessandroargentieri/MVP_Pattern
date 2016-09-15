@@ -8,7 +8,7 @@ import mawashi.alex.mvpsimpleformat.Model.ModelDAO;
 import mawashi.alex.mvpsimpleformat.Model.ModelDAOInterface;
 
 /**
- * Created by alessandro.argentier on 15/09/2016.
+ * Created by alessandro.argentier on 15/09/2016. MODIFIED
  */
 public class PresenterClass implements PresenterInterface {
 
