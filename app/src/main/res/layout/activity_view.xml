@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:theme="@style/MyActivityStyle"
+    android:padding = "@dimen/activity_margin"
+    tools:context=".View.ViewActivity">
+
+    <TextView
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/MyTextStyle"
+        android:text="MVP example" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:hint = "@string/name_here"
+        android:theme="@style/MyTextStyle"
+        android:layout_marginTop="@dimen/min_margin_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editNumber"
+        android:hint = "@string/number_here"
+        android:theme="@style/MyTextStyle"
+        android:layout_marginTop="@dimen/min_margin_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/MyTextStyle"
+        android:layout_marginTop="@dimen/min_margin_top"
+        android:text="ADD"
+        android:onClick="Add"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/MyTextStyle"
+        android:layout_marginTop="@dimen/max_margin_top"
+        android:text="GET"
+        android:onClick="Get"/>
+
+</LinearLayout>

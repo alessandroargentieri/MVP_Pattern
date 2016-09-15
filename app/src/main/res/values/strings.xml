@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MVPSimpleFormat</string>
+    <string name="name_here">Name here</string>
+    <string name="number_here">Number here</string>
+</resources>
